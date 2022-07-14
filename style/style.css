@@ -1,0 +1,31 @@
+body {
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.sun {
+  position: absolute;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+  animation: sun 6s;
+}
+@keyframes sun {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  33% {
+    transform: translateX(400px) translateY(-200px);
+  }
+  50% {
+    transform: translateX(650px) translateY(-300px);
+  }
+  66% {
+    transform: translateX(900px) translateY(-200px);
+  }
+  100% {
+    transform: translateX(1300px) translateY(0px);
+  }
+}
