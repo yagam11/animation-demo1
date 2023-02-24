@@ -1,2 +1,2 @@
 # animation-demo1
-a sunset animation by john during summer 2022
+a (stupid) sunrise/sunset animation by john during summer 2022
